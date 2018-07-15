@@ -1,0 +1,14 @@
+{
+  "name": "testcafe-cucumber-demo",
+  "version": "0.0.1",
+  "description": "An example integration of TestCafe into CucumberJS",
+  "author": "deepthi-halbhavi",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js -f json:test/report/cucumber_report.json"
+  },
+  "dependencies": {
+    "testcafe": "^0.20.4",
+    "cucumber": "^2.3.1",
+    "cucumber-html-reporter": "^4.0.3"
+  }
+}
