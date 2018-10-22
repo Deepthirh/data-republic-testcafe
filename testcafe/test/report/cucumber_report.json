@@ -1,0 +1,191 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "eBay, add to shopping cart",
+    "tags": [],
+    "uri": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/ebay-shopping-cart.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Search 2 different products from eBay, add them to cart and verify that the cart contains the two selected products",
+        "tags": [],
+        "id": "ebay,-add-to-shopping-cart;search-2-different-products-from-ebay,-add-them-to-cart-and-verify-that-the-cart-contains-the-two-selected-products",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to eBay website",
+            "result": {
+              "status": "failed",
+              "duration": 30006,
+              "error_message": "Error: function timed out after 30000 milliseconds\n    at Timeout._onTimeout (/Users/jagdishchaudhari/data-republic-testcafe/testcafe/node_modules/cucumber/lib/user_code_runner.js:91:22)\n    at ontimeout (timers.js:488:11)\n    at tryOnTimeout (timers.js:323:5)\n    at Timer.listOnTimeout (timers.js:283:5)"
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/step_definitions/eBay-shopping-cart-steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I search for \"macbook pro\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/step_definitions/eBay-shopping-cart-steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select first search result",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/step_definitions/eBay-shopping-cart-steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "It should go to the item page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/step_definitions/eBay-shopping-cart-steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"Add to cart\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/step_definitions/eBay-shopping-cart-steps.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The item should be added to the shopping cart",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/step_definitions/eBay-shopping-cart-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I verify that the shopping cart shows \"1\" items",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/step_definitions/eBay-shopping-cart-steps.js:52"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on \"Continue Shopping\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/step_definitions/eBay-shopping-cart-steps.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for \"google pixel 2 xl\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/step_definitions/eBay-shopping-cart-steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select first search result",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/step_definitions/eBay-shopping-cart-steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "It should go to the item page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/step_definitions/eBay-shopping-cart-steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"Add to cart\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/step_definitions/eBay-shopping-cart-steps.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The item should be added to the shopping cart",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/step_definitions/eBay-shopping-cart-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I verify that the shopping cart shows \"2\" items",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/jagdishchaudhari/data-republic-testcafe/testcafe/features/step_definitions/eBay-shopping-cart-steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "ebay,-add-to-shopping-cart"
+  }
+]
